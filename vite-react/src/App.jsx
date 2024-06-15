@@ -1,10 +1,13 @@
 import Chai from './Chai'
-
+// import CustomReact from './CustomReact'
 function App(){
   return(
-    <Chai/>
+    <>
+   <Chai/>
+    {/* <CustomReact/>*/}
+  </> 
   )
-  
+
 }
 
 export default App

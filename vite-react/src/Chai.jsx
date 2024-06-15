@@ -1,7 +1,6 @@
 /* eslint-disable no-unused-vars */
 import React, {useState} from "react"
 
-
 function Chai()
 {
     let [counter, setCounter] = useState(15)
@@ -19,12 +18,14 @@ function Chai()
         }
         setCounter(counter - 1)
     }
+
+    const username = 'Karishma Sinsinwar'
     return(
         <>
         <h1>Chai in react</h1>
         <h2>Number of chais i drank : {counter}</h2>
         <button onClick={(addValue)}>Add value</button>
-        <button onClick={(removeValue)}>Remove value</button>
+        <button onClick={(removeValue)}>Remove value {username}</button>  {/*evaluated expression*/ }
         </>
     )
 }
