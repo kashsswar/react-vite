@@ -3,6 +3,7 @@ import Chai from './Chai'
 import Tailwind from './Tailwind'
 import BgChanger from './BgChanger'
 import Password from './Password-generator'
+import Currency from './currency/MainPage'
 function App(){
   return(
     <>
@@ -10,7 +11,8 @@ function App(){
     {/* <CustomReact/>*/}
     {/* <Tailwind success="Dar ke age jeet hai"/> */}
     {/* <BgChanger/> */}
-    <Password/>
+    {/* <Password/> */}
+    <Currency/>
   </> 
   )
 
